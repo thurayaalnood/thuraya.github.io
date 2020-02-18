@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Indie Flower', cursive;
+
+
+}
+.div-style {
+    float: right;
+    border: 2px solid #000;
+    height: auto;
+    padding: 15px;
+    margin: 9px;
+    margin-top: 6%;
+    background-color: rgb(212, 80, 80);
+    padding-top: 40px;
+    text-align: left;
+
+}
+
+.title{
+    float: right;
+    border: 2px solid #000;
+    width: 131px;
+    text-align: center;
+    height: auto;
+    font-size: 25px;
+    /* padding: 2px; */
+    margin: -42px -17px 0px 0px;
+
+    /* margin-top: 6%; */
+color: #fff;
+
+}
+
+
+.title-one{
+    background-color: rgb(132, 204, 65);
+}
+.title-tow{
+    background-color: rgb(65, 204, 185);
+}
+
+.title-three{
+    background-color: rgb(141, 65, 204);
+}
+
+.div-one{
+    width: 30%;
+    
+
+}
+.div-tow{
+    width: 29%;   
+
+}
+.div-three{
+    width: 30%;
+   
+}
+ 
+@media  (max-width: 991px) and (min-width: 768px) {
+    
+
+.div-one{
+    width: 40% !important;
+
+}
+.div-tow{
+    width: 40% !important;
+
+}
+.div-three{
+    width: 100% !important;
+}
+
+}
+
+
+
+@media (max-width: 1433px){
+    .div-one{
+        width: 30% !important;
+    
+    }
+    .div-tow{
+        width: 27% !important;
+    
+    }
+    .div-three{
+        width: 30% !important;
+    }
+}
+
+@media (max-width: 1214px){
+    .div-one{
+        width: 30% !important;
+    
+    }
+    .div-tow{
+        width: 25% !important;
+    
+    }
+    .div-three{
+        width: 30% !important;
+    }
+}
+@media (max-width: 500px){
+    .div-one{
+        width: 100% !important;
+    
+    }
+    .div-tow{
+        width: 100% !important;
+    
+    }
+    .div-three{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1059px){
+    .div-one{
+        width: 45% !important;
+    
+    }
+    .div-tow{
+        width: 44% !important;
+    
+    }
+    .div-three{
+        width: 94% !important;
+    }
+}
+
+@media (max-width: 941px){
+    .div-one{
+        width: 90% !important;
+    
+    }
+    .div-tow{
+        width: 90% !important;
+    
+    }
+    .div-three{
+        width: 90% !important;
+    }
+}
